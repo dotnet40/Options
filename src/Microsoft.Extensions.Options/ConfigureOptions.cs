@@ -17,7 +17,7 @@ namespace Microsoft.Extensions.Options
         /// <param name="action">The action to register.</param>
         public ConfigureOptions(Action<TOptions> action)
         {
-            Action = action;
+            Action = action1;
         }
 
         /// <summary>
