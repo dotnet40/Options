@@ -8,7 +8,7 @@ namespace Microsoft.Extensions.Options
     internal static class Resources
     {
         private static readonly ResourceManager _resourceManager
-            = new ResourceManager("Microsoft.Extensions.Options.Resources", typeof(Resources).GetTypeInfo().Assembly);
+            = new ResourceManager("Microsoft.Extensions.Options.Resources", typeof(Resources).Assembly);
 
         /// <summary>
         /// Cannot create instance of type '{0}' because it is either abstract or an interface.
